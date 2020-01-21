@@ -1,0 +1,17 @@
+footer {
+  background-color: #F5F5F5;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    @include containerWidth();
+    a {
+      font-size: 10px;
+      color: grey;
+      margin-right: 10px;
+    }
+    select {
+      padding-right: 100px;
+    }
+  }
+}

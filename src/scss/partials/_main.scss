@@ -1,6 +1,5 @@
 main {
-  width: 70%;
-  margin: 0 15%;
+  @include containerWidth();
   .domanda {
     padding: 15px 0;
   }

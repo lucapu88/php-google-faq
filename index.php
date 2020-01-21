@@ -40,7 +40,7 @@
           <a href="#">Norme sulla privacy</a>
           <a href="#">Termini di servizio</a>
           <a href="#">Tecnologie</a>
-          <a href="#">Domande frequenti</a>
+          <a class="blu" href="#">Domande frequenti</a>
         </div>
         <div class="menu-right">
           <a href="#">Account Google</a>
@@ -57,10 +57,23 @@
         </div>
       <?php } ?>
     </main>
-
-
-
-
-
+    <footer>
+      <div class="container">
+        <div class="options">
+          <a href="#">Google</a>
+          <a href="#">Tutto su google</a>
+          <a href="#">Privacy</a>
+          <a href="#">Termini</a>
+        </div>
+        <div class="language">
+          <select class="lang" name="">
+            <option value="ita">Italiano </option>
+            <option value="Ing">Inglese </option>
+            <option value="Fra">Francese </option>
+            <option value="Spa">Spagnolo </option>
+          </select>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
