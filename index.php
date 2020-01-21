@@ -29,17 +29,36 @@
     <link rel="stylesheet" href="public/app.css">
   </head>
   <body>
-
-
-
-    <?php foreach ($faq as $faqTesto) { //ciclo l'array delle domande?>
-      <div class="domanda">
-        <h2><?php echo $faqTesto['domanda'] //creo tanti div per quante sono le domande, e dentro un tag h2 ci andrà il contenuto della key?></h2>
+    <header>
+      <div class="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="googlelogo">
+        <h2> Privacy e termini</h2>
       </div>
-      <div class="risposta">
-        <?php echo $faqTesto['risposta'] //creo tanti div per quante sono le risposte, e le risposte saranno la key suddivisa da dei tag p ?>
+      <div class="navbar">
+        <div class="menu-left">
+          <a href="#">Introduzione</a>
+          <a href="#">Norme sulla privacy</a>
+          <a href="#">Termini di servizio</a>
+          <a href="#">Tecnologie</a>
+          <a href="#">Domande frequenti</a>
+        </div>
+        <div class="menu-right">
+          <a href="#">Account Google</a>
+        </div>
       </div>
-    <?php } ?>
+    </header>
+    <main>
+      <?php foreach ($faq as $faqTesto) { //ciclo l'array delle domande?>
+        <div class="domanda">
+          <h2><?php echo $faqTesto['domanda'] //creo tanti div per quante sono le domande, e dentro un tag h2 ci andrà il contenuto della key?></h2>
+        </div>
+        <div class="risposta">
+          <?php echo $faqTesto['risposta'] //creo tanti div per quante sono le risposte, e le risposte saranno la key suddivisa da dei tag p ?>
+        </div>
+      <?php } ?>
+    </main>
+
+
 
 
 
