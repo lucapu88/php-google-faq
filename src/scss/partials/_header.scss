@@ -10,6 +10,9 @@ header {
   .logo {
     width: 100%;
     display: flex;
+    &:hover {
+      cursor: pointer;
+    }
     img {
       margin-right: 10px;
     }
@@ -28,6 +31,8 @@ header {
     }
     .blu {
       color: #3367D6;
+      border-bottom: 3px solid #3367D6;
+      padding: 5px 2px;
     }
   }
 }
