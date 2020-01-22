@@ -3,8 +3,8 @@ footer {
   .container {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
     @include containerWidth();
+    padding: 10px 30px;
     a {
       font-size: 10px;
       color: grey;
